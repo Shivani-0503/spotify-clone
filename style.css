@@ -75,5 +75,59 @@ nav ul li{
     margin-top: 14px;
     cursor: pointer;
 }
+.SongItemContainer
+{
+    margin-top: 34px;
+    margin-right: 200px;
+    width: 550px;
+    margin-left: 450px;
+}
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: #D8D0C1;
+    color: #6F686D;
+    margin: 12px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 34px;
 
+  }
+  
+  .songItem:not(:last-child) {
+    margin-bottom: 20px; /* Adjust the margin value as per your requirement */
+  }
+ 
+  .songItem img
+  {
+    width: 43px;
+    margin: 0 20px;
+    border-radius: 30px;
+  }  
+.timestamp
+{
+    display: flex;
+    margin: 0 23px;
+    justify-content: end;
+}
+.songListplay {
+    display: flex;
+    align-items: center;
+  }
+  
+  .timestamp {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 5px;
+  }
+  
+  svg {
+    height: 1em;
+    width: 1em;
+    margin-left: 5px;
+    fill: currentColor;
+    cursor: pointer;
+  }
+  
+  
 
